@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2831/branches/0.8-stable/app/views/users
+END
+list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2099/branches/0.8-stable/app/views/users/list.rhtml
+END
+_general.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2099/branches/0.8-stable/app/views/users/_general.rhtml
+END
+_memberships.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2831/branches/0.8-stable/app/views/users/_memberships.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2654/branches/0.8-stable/app/views/users/_form.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2099/branches/0.8-stable/app/views/users/edit.rhtml
+END
+add.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2099/branches/0.8-stable/app/views/users/add.rhtml
+END

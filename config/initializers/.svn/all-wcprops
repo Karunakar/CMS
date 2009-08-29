@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2791/branches/0.8-stable/config/initializers
+END
+30-redmine.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2099/branches/0.8-stable/config/initializers/30-redmine.rb
+END
+10-patches.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2099/branches/0.8-stable/config/initializers/10-patches.rb
+END
+40-email.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2099/branches/0.8-stable/config/initializers/40-email.rb
+END
+20-mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2099/branches/0.8-stable/config/initializers/20-mime_types.rb
+END
+bigdecimal-segfault-fix.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2791/branches/0.8-stable/config/initializers/bigdecimal-segfault-fix.rb
+END

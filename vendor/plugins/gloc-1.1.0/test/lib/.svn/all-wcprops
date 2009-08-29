@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2099/branches/0.8-stable/vendor/plugins/gloc-1.1.0/test/lib
+END
+rails-string_ext.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2099/branches/0.8-stable/vendor/plugins/gloc-1.1.0/test/lib/rails-string_ext.rb
+END
+rails-time_ext.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2099/branches/0.8-stable/vendor/plugins/gloc-1.1.0/test/lib/rails-time_ext.rb
+END

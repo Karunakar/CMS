@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2791/branches/0.8-stable/config
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2132/branches/0.8-stable/config/settings.yml
+END
+email.yml.example
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2099/branches/0.8-stable/config/email.yml.example
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2099/branches/0.8-stable/config/routes.rb
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2099/branches/0.8-stable/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2106/branches/0.8-stable/config/environment.rb
+END
+database.yml.example
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/2099/branches/0.8-stable/config/database.yml.example
+END

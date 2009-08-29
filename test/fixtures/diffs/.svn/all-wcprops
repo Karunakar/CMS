@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2132/branches/0.8-stable/test/fixtures/diffs
+END
+subversion.diff
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2132/branches/0.8-stable/test/fixtures/diffs/subversion.diff
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2681/branches/0.8-stable/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2099/branches/0.8-stable/test/test_helper.rb
+END
+helper_testcase.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2099/branches/0.8-stable/test/helper_testcase.rb
+END

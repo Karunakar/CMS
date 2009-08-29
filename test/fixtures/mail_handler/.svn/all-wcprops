@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2557/branches/0.8-stable/test/fixtures/mail_handler
+END
+ticket_with_cc.eml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2099/branches/0.8-stable/test/fixtures/mail_handler/ticket_with_cc.eml
+END
+ticket_with_attributes.eml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2099/branches/0.8-stable/test/fixtures/mail_handler/ticket_with_attributes.eml
+END
+ticket_with_attachment.eml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2099/branches/0.8-stable/test/fixtures/mail_handler/ticket_with_attachment.eml
+END
+ticket_html_only.eml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2146/branches/0.8-stable/test/fixtures/mail_handler/ticket_html_only.eml
+END
+ticket_reply_with_status.eml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2099/branches/0.8-stable/test/fixtures/mail_handler/ticket_reply_with_status.eml
+END
+ticket_on_given_project.eml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2099/branches/0.8-stable/test/fixtures/mail_handler/ticket_on_given_project.eml
+END
+ticket_reply.eml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2099/branches/0.8-stable/test/fixtures/mail_handler/ticket_reply.eml
+END
+ticket_with_custom_fields.eml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2229/branches/0.8-stable/test/fixtures/mail_handler/ticket_with_custom_fields.eml
+END
+ticket_without_from_header.eml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2557/branches/0.8-stable/test/fixtures/mail_handler/ticket_without_from_header.eml
+END

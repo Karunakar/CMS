@@ -1,0 +1,1808 @@
+# Logfile created on Mon Aug 24 00:08:05 +0530 2009
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-24 00:11:35) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.19682 (5 reqs/sec) | Rendering: 0.07223 (36%) | DB: 0.02951 (14%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-24 00:11:39) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"login", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 0.02827 (35 reqs/sec) | Rendering: 0.01919 (67%) | DB: 0.00366 (12%) | 200 OK [http://localhost/login]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-24 00:12:21) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.02707 (36 reqs/sec) | Rendering: 0.01304 (48%) | DB: 0.00249 (9%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-24 00:12:25) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"login", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 0.11999 (8 reqs/sec) | Rendering: 0.11599 (96%) | DB: 0.00052 (0%) | 200 OK [http://localhost/login]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-24 00:12:32) [POST]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"back_url"=>"http%3A%2F%2Flocalhost%3A3000%2F", "action"=>"login", "username"=>"admin", "controller"=>"account", "password"=>"[FILTERED]", "login"=>"Login »"}
+Redirected to http://localhost:3000/
+Completed in 0.03727 (26 reqs/sec) | DB: 0.00487 (13%) | 302 Found [http://localhost/login]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-24 00:12:32) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.08930 (11 reqs/sec) | Rendering: 0.06913 (77%) | DB: 0.01502 (16%) | 200 OK [http://localhost/]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-24 00:12:36) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.17870 (5 reqs/sec) | Rendering: 0.12712 (71%) | DB: 0.01818 (10%) | 200 OK [http://localhost/my/page]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-24 00:12:38) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03376 (29 reqs/sec) | Rendering: 0.02502 (74%) | DB: 0.00153 (4%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-24 00:12:39) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.05078 (19 reqs/sec) | Rendering: 0.04275 (84%) | DB: 0.00096 (1%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#add (for 127.0.0.1 at 2009-08-24 00:12:42) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"add", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/add
+Completed in 0.20822 (4 reqs/sec) | Rendering: 0.16560 (79%) | DB: 0.00751 (3%) | 200 OK [http://localhost/projects/add]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-24 00:14:17) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.02867 (34 reqs/sec) | Rendering: 0.01895 (66%) | DB: 0.00191 (6%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-24 00:14:28) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.02568 (38 reqs/sec) | Rendering: 0.01864 (72%) | DB: 0.00219 (8%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#add (for 127.0.0.1 at 2009-08-24 00:14:30) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"add", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/add
+Completed in 0.05288 (18 reqs/sec) | Rendering: 0.02772 (52%) | DB: 0.00994 (18%) | 200 OK [http://localhost/projects/add]
+
+
+Processing ProjectsController#add (for 127.0.0.1 at 2009-08-24 00:15:15) [POST]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"enabled_modules"=>["issue_tracking", "time_tracking", "news", "documents", "files", "wiki", "repository", "boards"], "commit"=>"Save", "action"=>"add", "project"=>{"name"=>"Sample Project", "homepage"=>"Dashborad", "is_public"=>"1", "description"=>"Sample Project Description", "identifier"=>"Sample"}, "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/add
+Completed in 0.10387 (9 reqs/sec) | Rendering: 0.03333 (32%) | DB: 0.02259 (21%) | 200 OK [http://localhost/projects/add]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-24 00:16:54) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.04379 (22 reqs/sec) | Rendering: 0.03782 (86%) | DB: 0.00217 (4%) | 200 OK [http://localhost/my/page]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-24 00:17:16) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.06074 (16 reqs/sec) | Rendering: 0.02833 (46%) | DB: 0.00239 (3%) | 200 OK [http://localhost/admin]
+
+
+Processing MyController#account (for 127.0.0.1 at 2009-08-24 00:18:02) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"account", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/account
+Completed in 0.27029 (3 reqs/sec) | Rendering: 0.25430 (94%) | DB: 0.00720 (2%) | 200 OK [http://localhost/my/account]
+
+
+Processing MyController#password (for 127.0.0.1 at 2009-08-24 00:18:28) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"password", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/password
+Completed in 0.05646 (17 reqs/sec) | Rendering: 0.05147 (91%) | DB: 0.00185 (3%) | 200 OK [http://localhost/my/password]
+
+
+Processing AccountController#show (for 127.0.0.1 at 2009-08-24 00:19:00) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/show
+Completed in 0.30927 (3 reqs/sec) | Rendering: 0.06385 (20%) | DB: 0.02972 (9%) | 200 OK [http://localhost/account/show/1]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-24 00:19:04) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.03530 (28 reqs/sec) | Rendering: 0.02974 (84%) | DB: 0.00183 (5%) | 200 OK [http://localhost/my/page]
+
+
+Processing MyController#page_layout (for 127.0.0.1 at 2009-08-24 00:19:07) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"page_layout", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page_layout
+Completed in 0.09518 (10 reqs/sec) | Rendering: 0.08901 (93%) | DB: 0.00181 (1%) | 200 OK [http://localhost/my/page_layout]
+
+
+Processing MyController#add_block (for 127.0.0.1 at 2009-08-24 00:19:11) [POST]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"add_block", "block"=>"", "controller"=>"my"}
+Completed in 0.00564 (177 reqs/sec) | Rendering: 0.00084 (14%) | DB: 0.00044 (7%) | 200 OK [http://localhost/my/add_block]
+
+
+Processing MyController#add_block (for 127.0.0.1 at 2009-08-24 00:19:15) [POST]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"add_block", "block"=>"", "controller"=>"my"}
+Completed in 0.00412 (242 reqs/sec) | Rendering: 0.00085 (20%) | DB: 0.00040 (9%) | 200 OK [http://localhost/my/add_block]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-24 00:20:39) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.02817 (35 reqs/sec) | Rendering: 0.01784 (63%) | DB: 0.00298 (10%) | 200 OK [http://localhost/]
+
+
+Processing MyController#account (for 127.0.0.1 at 2009-08-24 00:42:22) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"account", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/account
+Completed in 0.05280 (18 reqs/sec) | Rendering: 0.04276 (80%) | DB: 0.00353 (6%) | 200 OK [http://localhost/my/account]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-24 00:42:25) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.05380 (18 reqs/sec) | Rendering: 0.04706 (87%) | DB: 0.00203 (3%) | 200 OK [http://localhost/my/page]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-24 00:42:28) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03053 (32 reqs/sec) | Rendering: 0.01685 (55%) | DB: 0.00370 (12%) | 200 OK [http://localhost/projects]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-24 00:42:29) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.03821 (26 reqs/sec) | Rendering: 0.03113 (81%) | DB: 0.00147 (3%) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-24 00:42:35) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"projects", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/projects
+Completed in 0.07993 (12 reqs/sec) | Rendering: 0.07054 (88%) | DB: 0.00246 (3%) | 200 OK [http://localhost/admin/projects]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-24 00:42:39) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/base
+Rendering users/list
+Completed in 0.06727 (14 reqs/sec) | Rendering: 0.05019 (74%) | DB: 0.00930 (13%) | 200 OK [http://localhost/users]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-08-24 00:42:43) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"roles"}
+Rendering template within layouts/base
+Rendering roles/list
+Completed in 0.04467 (22 reqs/sec) | Rendering: 0.03537 (79%) | DB: 0.00122 (2%) | 200 OK [http://localhost/roles]
+
+
+Processing CustomFieldsController#index (for 127.0.0.1 at 2009-08-24 00:42:48) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"custom_fields"}
+Rendering template within layouts/base
+Rendering custom_fields/list
+Completed in 0.04618 (21 reqs/sec) | Rendering: 0.03750 (81%) | DB: 0.00088 (1%) | 200 OK [http://localhost/custom_fields]
+
+
+Processing CustomFieldsController#new (for 127.0.0.1 at 2009-08-24 00:42:50) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"new", "type"=>"IssueCustomField", "controller"=>"custom_fields"}
+Rendering template within layouts/base
+Rendering custom_fields/new
+Completed in 0.08031 (12 reqs/sec) | Rendering: 0.06692 (83%) | DB: 0.00094 (1%) | 200 OK [http://localhost/custom_fields/new?type=IssueCustomField]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-24 00:42:54) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03272 (30 reqs/sec) | Rendering: 0.02337 (71%) | DB: 0.00224 (6%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-24 00:42:56) [GET]
+  Session ID: c6fc6ebdb886c266d26eed016f47364d
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.02527 (39 reqs/sec) | Rendering: 0.01853 (73%) | DB: 0.00109 (4%) | 200 OK [http://localhost/projects]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 21:35:40) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.34463 (2 reqs/sec) | Rendering: 0.16316 (47%) | DB: 0.01339 (3%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-25 21:35:44) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"login", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 0.06310 (15 reqs/sec) | Rendering: 0.04230 (67%) | DB: 0.00179 (2%) | 200 OK [http://localhost/login]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-25 21:35:49) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"back_url"=>"http%3A%2F%2Flocalhost%3A3000%2F", "action"=>"login", "username"=>"admin", "controller"=>"account", "password"=>"[FILTERED]", "login"=>"Login »"}
+Redirected to http://localhost:3000/
+Completed in 0.05377 (18 reqs/sec) | DB: 0.00911 (16%) | 302 Found [http://localhost/login]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 21:35:49) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.08108 (12 reqs/sec) | Rendering: 0.07287 (89%) | DB: 0.00400 (4%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-25 21:35:49) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"back_url"=>"http%3A%2F%2Flocalhost%3A3000%2F", "action"=>"login", "username"=>"admin", "controller"=>"account", "password"=>"[FILTERED]", "login"=>"Login »"}
+Redirected to http://localhost:3000/
+Completed in 0.01197 (83 reqs/sec) | DB: 0.00611 (51%) | 302 Found [http://localhost/login]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 21:35:50) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.02114 (47 reqs/sec) | Rendering: 0.01237 (58%) | DB: 0.00477 (22%) | 200 OK [http://localhost/]
+
+
+Processing MyController#account (for 127.0.0.1 at 2009-08-25 21:35:53) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"account", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/account
+Completed in 0.15152 (6 reqs/sec) | Rendering: 0.11142 (73%) | DB: 0.00848 (5%) | 200 OK [http://localhost/my/account]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 21:36:00) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.26927 (3 reqs/sec) | Rendering: 0.02409 (8%) | DB: 0.00281 (1%) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-25 21:36:04) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"projects", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/projects
+Completed in 0.11743 (8 reqs/sec) | Rendering: 0.06911 (58%) | DB: 0.00230 (1%) | 200 OK [http://localhost/admin/projects]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-25 21:36:08) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"name"=>"", "action"=>"projects", "controller"=>"admin", "status"=>""}
+Rendering template within layouts/base
+Rendering admin/projects
+Completed in 0.03598 (27 reqs/sec) | Rendering: 0.02943 (81%) | DB: 0.00188 (5%) | 200 OK [http://localhost/admin/projects?status=&name=]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-25 21:36:12) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"name"=>"", "action"=>"projects", "controller"=>"admin", "per_page"=>"50", "status"=>""}
+Rendering admin/projects
+Completed in 0.02660 (37 reqs/sec) | Rendering: 0.02084 (78%) | DB: 0.00121 (4%) | 200 OK [http://localhost/admin/projects?name=&per_page=50&status=]
+
+
+Processing ProjectsController#add (for 127.0.0.1 at 2009-08-25 21:36:16) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"add", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/add
+Completed in 0.14615 (6 reqs/sec) | Rendering: 0.10619 (72%) | DB: 0.00656 (4%) | 200 OK [http://localhost/projects/add]
+
+
+Processing ProjectsController#add (for 127.0.0.1 at 2009-08-25 21:37:09) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"enabled_modules"=>["issue_tracking", "time_tracking", "news", "documents", "files", "wiki", "repository", "boards"], "commit"=>"Save", "action"=>"add", "project"=>{"name"=>"Sample Project", "homepage"=>"", "is_public"=>"1", "description"=>"Its Sample Project", "identifier"=>"sample"}, "controller"=>"projects"}
+Redirected to http://localhost:3000/admin/projects
+Completed in 0.12855 (7 reqs/sec) | DB: 0.02587 (20%) | 302 Found [http://localhost/projects/add]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-25 21:37:10) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"projects", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/projects
+Completed in 0.04494 (22 reqs/sec) | Rendering: 0.03598 (80%) | DB: 0.00306 (6%) | 200 OK [http://localhost/admin/projects]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 21:37:16) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.23810 (4 reqs/sec) | Rendering: 0.19502 (81%) | DB: 0.01628 (6%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing MembersController#new (for 127.0.0.1 at 2009-08-25 21:37:27) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Add", "action"=>"new", "member"=>{"user_id"=>"1"}, "id"=>"sample", "controller"=>"members"}
+Completed in 0.03483 (28 reqs/sec) | Rendering: 0.01485 (42%) | DB: 0.00293 (8%) | 200 OK [http://localhost/members/new/sample]
+
+
+Processing MembersController#new (for 127.0.0.1 at 2009-08-25 21:37:28) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Add", "action"=>"new", "member"=>{"user_id"=>"1"}, "id"=>"sample", "controller"=>"members"}
+Completed in 0.05198 (19 reqs/sec) | Rendering: 0.02529 (48%) | DB: 0.00352 (6%) | 200 OK [http://localhost/members/new/sample]
+
+
+Processing MembersController#new (for 127.0.0.1 at 2009-08-25 21:37:29) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Add", "action"=>"new", "member"=>{"user_id"=>"1"}, "id"=>"sample", "controller"=>"members"}
+Completed in 0.03862 (25 reqs/sec) | Rendering: 0.02194 (56%) | DB: 0.00330 (8%) | 200 OK [http://localhost/members/new/sample]
+
+
+Processing RepositoriesController#edit (for 127.0.0.1 at 2009-08-25 21:37:45) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"sample", "controller"=>"repositories", "repository_scm"=>"Git"}
+Completed in 0.04914 (20 reqs/sec) | Rendering: 0.02280 (46%) | DB: 0.00306 (6%) | 200 OK [http://localhost/repositories/edit/sample?repository_scm=Git]
+
+
+Processing RepositoriesController#edit (for 127.0.0.1 at 2009-08-25 21:42:27) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"repository"=>{"url"=>"git://github.com/Karunakar/Sample-Project.git"}, "commit"=>"Create", "action"=>"edit", "id"=>"sample", "controller"=>"repositories", "repository_scm"=>"Git"}
+Completed in 0.05151 (19 reqs/sec) | Rendering: 0.02410 (46%) | DB: 0.00562 (10%) | 200 OK [http://localhost/repositories/edit/sample]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 21:43:00) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Completed in 0.05552 (18 reqs/sec) | Rendering: 0.01693 (30%) | DB: 0.00989 (17%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 21:43:09) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.06349 (15 reqs/sec) | Rendering: 0.05215 (82%) | DB: 0.00380 (5%) | 200 OK [http://localhost/projects]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 21:43:20) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02036 (49 reqs/sec) | Rendering: 0.01428 (70%) | DB: 0.00248 (12%) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-25 21:43:25) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"projects", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/projects
+Completed in 0.03961 (25 reqs/sec) | Rendering: 0.03295 (83%) | DB: 0.00197 (4%) | 200 OK [http://localhost/admin/projects]
+
+
+Processing TrackersController#index (for 127.0.0.1 at 2009-08-25 21:43:32) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"trackers"}
+Rendering template within layouts/base
+Rendering trackers/list
+Completed in 0.05514 (18 reqs/sec) | Rendering: 0.04272 (77%) | DB: 0.00190 (3%) | 200 OK [http://localhost/trackers]
+
+
+Processing SettingsController#index (for 127.0.0.1 at 2009-08-25 21:43:43) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"settings"}
+Rendering template within layouts/base
+Rendering settings/edit
+Completed in 0.14018 (7 reqs/sec) | Rendering: 0.12447 (88%) | DB: 0.01035 (7%) | 200 OK [http://localhost/settings]
+
+
+Processing SettingsController#edit (for 127.0.0.1 at 2009-08-25 21:44:00) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Save", "action"=>"edit", "settings"=>{"sequential_project_identifiers"=>"1", "default_projects_public"=>"1"}, "controller"=>"settings", "tab"=>"projects"}
+Redirected to http://localhost:3000/settings/edit?tab=projects
+Completed in 0.15777 (6 reqs/sec) | DB: 0.14325 (90%) | 302 Found [http://localhost/settings/edit?tab=projects]
+
+
+Processing SettingsController#edit (for 127.0.0.1 at 2009-08-25 21:44:00) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "controller"=>"settings", "tab"=>"projects"}
+Settings cache cleared.
+Rendering template within layouts/base
+Rendering settings/edit
+Completed in 0.23967 (4 reqs/sec) | Rendering: 0.21263 (88%) | DB: 0.02316 (9%) | 200 OK [http://localhost/settings/edit?tab=projects]
+
+
+Processing SettingsController#edit (for 127.0.0.1 at 2009-08-25 21:44:13) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Save", "action"=>"edit", "settings"=>{"issues_export_limit"=>"500", "cross_project_issue_relations"=>"0", "issue_list_default_columns"=>["", "project", "tracker", "status", "priority", "subject", "author", "assigned_to", "updated_on", "category", "fixed_version", "start_date", "due_date", "estimated_hours", "done_ratio", "created_on"], "display_subprojects_issues"=>"1"}, "controller"=>"settings", "tab"=>"issues"}
+Redirected to http://localhost:3000/settings/edit?tab=issues
+Completed in 0.03556 (28 reqs/sec) | DB: 0.01100 (30%) | 302 Found [http://localhost/settings/edit?tab=issues]
+
+
+Processing SettingsController#edit (for 127.0.0.1 at 2009-08-25 21:44:13) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "controller"=>"settings", "tab"=>"issues"}
+Settings cache cleared.
+Rendering template within layouts/base
+Rendering settings/edit
+Completed in 0.08944 (11 reqs/sec) | Rendering: 0.07089 (79%) | DB: 0.01586 (17%) | 200 OK [http://localhost/settings/edit?tab=issues]
+
+
+Processing SettingsController#edit (for 127.0.0.1 at 2009-08-25 21:44:29) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Save", "action"=>"edit", "settings"=>{"mail_handler_api_enabled"=>"1", "mail_handler_api_key"=>"XQbZDLU6rwppQt8uxgvy"}, "controller"=>"settings", "tab"=>"mail_handler"}
+Redirected to http://localhost:3000/settings/edit?tab=mail_handler
+Completed in 0.02776 (36 reqs/sec) | DB: 0.01114 (40%) | 302 Found [http://localhost/settings/edit?tab=mail_handler]
+
+
+Processing SettingsController#edit (for 127.0.0.1 at 2009-08-25 21:44:29) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "controller"=>"settings", "tab"=>"mail_handler"}
+Settings cache cleared.
+Rendering template within layouts/base
+Rendering settings/edit
+Completed in 0.09689 (10 reqs/sec) | Rendering: 0.07593 (78%) | DB: 0.01684 (17%) | 200 OK [http://localhost/settings/edit?tab=mail_handler]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 21:44:40) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03442 (29 reqs/sec) | Rendering: 0.02464 (71%) | DB: 0.00291 (8%) | 200 OK [http://localhost/projects]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-25 21:44:41) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.12253 (8 reqs/sec) | Rendering: 0.11213 (91%) | DB: 0.00583 (4%) | 200 OK [http://localhost/my/page]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 22:00:26) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03197 (31 reqs/sec) | Rendering: 0.01998 (62%) | DB: 0.00374 (11%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 22:00:29) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.16533 (6 reqs/sec) | Rendering: 0.10466 (63%) | DB: 0.02678 (16%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 22:00:34) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "set_filter"=>"1", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.23462 (4 reqs/sec) | Rendering: 0.19817 (84%) | DB: 0.00902 (3%) | 200 OK [http://localhost/projects/sample/issues?set_filter=1]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 22:00:46) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Completed in 0.06372 (15 reqs/sec) | Rendering: 0.02989 (46%) | DB: 0.01062 (16%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 22:00:56) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.08506 (11 reqs/sec) | Rendering: 0.05547 (65%) | DB: 0.00491 (5%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing ProjectsController#add_issue_category (for 127.0.0.1 at 2009-08-25 22:01:02) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"add_issue_category", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/add_issue_category
+Completed in 0.08187 (12 reqs/sec) | Rendering: 0.06278 (76%) | DB: 0.00238 (2%) | 200 OK [http://localhost/projects/add_issue_category/sample]
+
+
+Processing ProjectsController#add_issue_category (for 127.0.0.1 at 2009-08-25 22:01:14) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"category"=>{"name"=>"Issue Category", "assigned_to_id"=>""}, "commit"=>"Create", "action"=>"add_issue_category", "id"=>"sample", "controller"=>"projects"}
+Redirected to http://localhost:3000/projects/settings/sample?tab=categories
+Completed in 0.03270 (30 reqs/sec) | DB: 0.00867 (26%) | 302 Found [http://localhost/projects/add_issue_category/sample]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 22:01:14) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects", "tab"=>"categories"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.06507 (15 reqs/sec) | Rendering: 0.04715 (72%) | DB: 0.00427 (6%) | 200 OK [http://localhost/projects/settings/sample?tab=categories]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 22:01:24) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.09340 (10 reqs/sec) | Rendering: 0.03871 (41%) | DB: 0.00431 (4%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 22:01:25) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "set_filter"=>"1", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.08605 (11 reqs/sec) | Rendering: 0.03478 (40%) | DB: 0.01196 (13%) | 200 OK [http://localhost/projects/sample/issues?set_filter=1]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 22:01:29) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Completed in 0.05535 (18 reqs/sec) | Rendering: 0.02762 (49%) | DB: 0.00460 (8%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 22:03:35) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.11786 (8 reqs/sec) | Rendering: 0.07348 (62%) | DB: 0.00710 (6%) | 200 OK [http://localhost/projects/sample/issues]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 22:03:39) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"set_filter"=>"1", "project_id"=>"sample", "action"=>"index", "fields"=>["status_id"], "operators"=>{"start_date"=>"<t+", "estimated_hours"=>"=", "created_on"=>">t-", "priority_id"=>"=", "done_ratio"=>"=", "updated_on"=>">t-", "subject"=>"~", "assigned_to_id"=>"=", "category_id"=>"=", "tracker_id"=>"=", "due_date"=>"<t+", "author_id"=>"=", "status_id"=>"o"}, "values"=>{"start_date"=>[""], "estimated_hours"=>[""], "created_on"=>[""], "done_ratio"=>[""], "updated_on"=>[""], "subject"=>[""], "assigned_to_id"=>["me"], "category_id"=>["1"], "due_date"=>[""], "author_id"=>["me"]}, "controller"=>"issues", "add_filter_select"=>""}
+Rendering issues/index.rhtml
+Completed in 0.18456 (5 reqs/sec) | Rendering: 0.14193 (76%) | DB: 0.00617 (3%) | 200 OK [http://localhost/projects/sample/issues?set_filter=1]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 22:03:41) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"set_filter"=>"1", "project_id"=>"sample", "action"=>"index", "fields"=>["status_id"], "operators"=>{"start_date"=>"<t+", "estimated_hours"=>"=", "created_on"=>">t-", "priority_id"=>"=", "done_ratio"=>"=", "updated_on"=>">t-", "subject"=>"~", "assigned_to_id"=>"=", "category_id"=>"=", "tracker_id"=>"=", "due_date"=>"<t+", "author_id"=>"=", "status_id"=>"o"}, "values"=>{"start_date"=>[""], "estimated_hours"=>[""], "created_on"=>[""], "done_ratio"=>[""], "updated_on"=>[""], "subject"=>[""], "assigned_to_id"=>["me"], "category_id"=>["1"], "due_date"=>[""], "author_id"=>["me"]}, "controller"=>"issues", "add_filter_select"=>""}
+Rendering issues/index.rhtml
+Completed in 0.09350 (10 reqs/sec) | Rendering: 0.05088 (54%) | DB: 0.00634 (6%) | 200 OK [http://localhost/projects/sample/issues?set_filter=1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 22:03:46) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03091 (32 reqs/sec) | Rendering: 0.02186 (70%) | DB: 0.00184 (5%) | 200 OK [http://localhost/]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 22:04:01) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.03432 (29 reqs/sec) | Rendering: 0.02568 (74%) | DB: 0.00166 (4%) | 200 OK [http://localhost/admin]
+
+
+Processing TrackersController#index (for 127.0.0.1 at 2009-08-25 22:04:08) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"trackers"}
+Rendering template within layouts/base
+Rendering trackers/list
+Completed in 0.02681 (37 reqs/sec) | Rendering: 0.01423 (53%) | DB: 0.00782 (29%) | 200 OK [http://localhost/trackers]
+
+
+Processing TrackersController#new (for 127.0.0.1 at 2009-08-25 22:04:10) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"new", "controller"=>"trackers"}
+Rendering template within layouts/base
+Rendering trackers/new
+Completed in 0.06631 (15 reqs/sec) | Rendering: 0.06089 (91%) | DB: 0.00109 (1%) | 200 OK [http://localhost/trackers/new]
+
+
+Processing TrackersController#new (for 127.0.0.1 at 2009-08-25 22:04:19) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Create", "action"=>"new", "tracker"=>{"name"=>"Test Tracker", "is_in_roadmap"=>"1", "is_in_chlog"=>"0"}, "controller"=>"trackers"}
+Redirected to http://localhost:3000/trackers/list
+Completed in 0.02331 (42 reqs/sec) | DB: 0.01200 (51%) | 302 Found [http://localhost/trackers/new]
+
+
+Processing TrackersController#list (for 127.0.0.1 at 2009-08-25 22:04:19) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"trackers"}
+Rendering template within layouts/base
+Rendering trackers/list
+Completed in 0.04088 (24 reqs/sec) | Rendering: 0.03347 (81%) | DB: 0.00436 (10%) | 200 OK [http://localhost/trackers/list]
+
+
+Processing TrackersController#edit (for 127.0.0.1 at 2009-08-25 22:04:23) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"trackers"}
+Rendering template within layouts/base
+Rendering trackers/edit
+Completed in 0.05133 (19 reqs/sec) | Rendering: 0.04562 (88%) | DB: 0.00125 (2%) | 200 OK [http://localhost/trackers/edit/1]
+
+
+Processing TrackersController#edit (for 127.0.0.1 at 2009-08-25 22:04:27) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Save", "action"=>"edit", "id"=>"1", "tracker"=>{"name"=>"Test Tracker", "is_in_roadmap"=>"1", "is_in_chlog"=>"1"}, "controller"=>"trackers"}
+Redirected to http://localhost:3000/trackers/list
+Completed in 0.01658 (60 reqs/sec) | DB: 0.00671 (40%) | 302 Found [http://localhost/trackers/edit/1]
+
+
+Processing TrackersController#list (for 127.0.0.1 at 2009-08-25 22:04:27) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"trackers"}
+Rendering template within layouts/base
+Rendering trackers/list
+Completed in 0.02281 (43 reqs/sec) | Rendering: 0.01661 (72%) | DB: 0.00328 (14%) | 200 OK [http://localhost/trackers/list]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 22:04:31) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03151 (31 reqs/sec) | Rendering: 0.02150 (68%) | DB: 0.00204 (6%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 22:05:25) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.08257 (12 reqs/sec) | Rendering: 0.03797 (45%) | DB: 0.00677 (8%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 22:05:29) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Completed in 0.05876 (17 reqs/sec) | Rendering: 0.02817 (47%) | DB: 0.00869 (14%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 22:05:39) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.10297 (9 reqs/sec) | Rendering: 0.07538 (73%) | DB: 0.00606 (5%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing IssueCategoriesController#edit (for 127.0.0.1 at 2009-08-25 22:05:49) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"issue_categories"}
+Rendering template within layouts/base
+Rendering issue_categories/edit
+Completed in 0.06335 (15 reqs/sec) | Rendering: 0.04827 (76%) | DB: 0.00210 (3%) | 200 OK [http://localhost/issue_categories/edit/1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 23:12:27) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03302 (30 reqs/sec) | Rendering: 0.02388 (72%) | DB: 0.00172 (5%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:12:31) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.05789 (17 reqs/sec) | Rendering: 0.02363 (40%) | DB: 0.00482 (8%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 23:12:33) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.08599 (11 reqs/sec) | Rendering: 0.06368 (74%) | DB: 0.00461 (5%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:12:39) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03237 (30 reqs/sec) | Rendering: 0.02270 (70%) | DB: 0.00218 (6%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:12:46) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.07275 (13 reqs/sec) | Rendering: 0.03798 (52%) | DB: 0.00422 (5%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing ProjectsController#activity (for 127.0.0.1 at 2009-08-25 23:12:51) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"activity", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/activity
+Completed in 0.19536 (5 reqs/sec) | Rendering: 0.07297 (37%) | DB: 0.01847 (9%) | 200 OK [http://localhost/projects/activity/sample]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 23:12:54) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.06608 (15 reqs/sec) | Rendering: 0.04964 (75%) | DB: 0.00399 (6%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 23:12:55) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.05983 (16 reqs/sec) | Rendering: 0.04361 (72%) | DB: 0.00420 (7%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing IssueCategoriesController#edit (for 127.0.0.1 at 2009-08-25 23:13:02) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"issue_categories"}
+Rendering template within layouts/base
+Rendering issue_categories/edit
+Completed in 0.04952 (20 reqs/sec) | Rendering: 0.02215 (44%) | DB: 0.01341 (27%) | 200 OK [http://localhost/issue_categories/edit/1]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:13:09) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.04277 (23 reqs/sec) | Rendering: 0.02005 (46%) | DB: 0.00342 (7%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing AccountController#show (for 127.0.0.1 at 2009-08-25 23:13:14) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/show
+Completed in 0.33135 (3 reqs/sec) | Rendering: 0.04180 (12%) | DB: 0.01244 (3%) | 200 OK [http://localhost/account/show/1]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:13:17) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02869 (34 reqs/sec) | Rendering: 0.02002 (69%) | DB: 0.00261 (9%) | 200 OK [http://localhost/admin]
+
+
+Processing UsersController#add (for 127.0.0.1 at 2009-08-25 23:13:24) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"add", "controller"=>"users"}
+Rendering template within layouts/base
+Rendering users/add
+Completed in 0.05999 (16 reqs/sec) | Rendering: 0.04629 (77%) | DB: 0.00137 (2%) | 200 OK [http://localhost/users/add]
+
+
+Processing UsersController#add (for 127.0.0.1 at 2009-08-25 23:14:12) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Create", "send_information"=>"1", "password_confirmation"=>"[FILTERED]", "action"=>"add", "controller"=>"users", "user"=>{"admin"=>"0", "language"=>"en", "mail"=>"santhosh.rubyonrails@gmail.com", "lastname"=>"Revuri", "firstname"=>"Karunakar", "login"=>"Developer1"}, "password"=>"[FILTERED]"}
+Redirected to http://localhost:3000/users/list
+Completed in 0.14772 (6 reqs/sec) | DB: 0.01043 (7%) | 302 Found [http://localhost/users/add]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2009-08-25 23:14:12) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"users"}
+Rendering template within layouts/base
+Rendering users/list
+Completed in 0.06912 (14 reqs/sec) | Rendering: 0.06117 (88%) | DB: 0.00320 (4%) | 200 OK [http://localhost/users/list]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:22:57) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.07854 (12 reqs/sec) | Rendering: 0.03978 (50%) | DB: 0.00695 (8%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:23:03) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.11932 (8 reqs/sec) | Rendering: 0.07301 (61%) | DB: 0.00924 (7%) | 200 OK [http://localhost/projects/sample/issues]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:23:16) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.01933 (51 reqs/sec) | Rendering: 0.01343 (69%) | DB: 0.00179 (9%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:23:17) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.07346 (13 reqs/sec) | Rendering: 0.03722 (50%) | DB: 0.00505 (6%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 23:23:19) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.10184 (9 reqs/sec) | Rendering: 0.07354 (72%) | DB: 0.00642 (6%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing IssueCategoriesController#edit (for 127.0.0.1 at 2009-08-25 23:23:23) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"issue_categories"}
+Rendering template within layouts/base
+Rendering issue_categories/edit
+Completed in 0.15275 (6 reqs/sec) | Rendering: 0.13480 (88%) | DB: 0.00233 (1%) | 200 OK [http://localhost/issue_categories/edit/1]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:23:34) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02785 (35 reqs/sec) | Rendering: 0.02143 (76%) | DB: 0.00123 (4%) | 200 OK [http://localhost/admin]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-08-25 23:23:40) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"roles"}
+Rendering template within layouts/base
+Rendering roles/list
+Completed in 0.05480 (18 reqs/sec) | Rendering: 0.04683 (85%) | DB: 0.00114 (2%) | 200 OK [http://localhost/roles]
+
+
+Processing RolesController#edit (for 127.0.0.1 at 2009-08-25 23:23:43) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"roles"}
+Rendering template within layouts/base
+Rendering roles/edit
+Completed in 0.07216 (13 reqs/sec) | Rendering: 0.06538 (90%) | DB: 0.00145 (2%) | 200 OK [http://localhost/roles/edit/1]
+
+
+Processing RolesController#edit (for 127.0.0.1 at 2009-08-25 23:24:55) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Save", "action"=>"edit", "role"=>{"permissions"=>["add_messages", "edit_own_messages", "delete_own_messages", "manage_documents", "view_documents", "manage_files", "view_files", "add_issues", "edit_issues", "manage_issue_relations", "edit_issue_notes", "edit_own_issue_notes", "move_issues", "view_gantt", "view_calendar", "view_issue_watchers", "comment_news", "browse_repository", "view_changesets", "commit_access", "log_time", "view_time_entries", "edit_own_time_entries", "view_wiki_pages", "view_wiki_edits", "edit_wiki_pages", "delete_wiki_pages_attachments", ""]}, "id"=>"1", "controller"=>"roles"}
+Redirected to http://localhost:3000/roles/list
+Completed in 0.01914 (52 reqs/sec) | DB: 0.00551 (28%) | 302 Found [http://localhost/roles/edit/1]
+
+
+Processing RolesController#list (for 127.0.0.1 at 2009-08-25 23:24:55) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"roles"}
+Rendering template within layouts/base
+Rendering roles/list
+Completed in 0.02539 (39 reqs/sec) | Rendering: 0.01759 (69%) | DB: 0.00238 (9%) | 200 OK [http://localhost/roles/list]
+
+
+Processing RolesController#edit (for 127.0.0.1 at 2009-08-25 23:25:02) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"roles"}
+Rendering template within layouts/base
+Rendering roles/edit
+Completed in 0.03455 (28 reqs/sec) | Rendering: 0.02871 (83%) | DB: 0.00145 (4%) | 200 OK [http://localhost/roles/edit/1]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:25:07) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02724 (36 reqs/sec) | Rendering: 0.01983 (72%) | DB: 0.00178 (6%) | 200 OK [http://localhost/admin]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-25 23:25:13) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"projects", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/projects
+Completed in 0.04134 (24 reqs/sec) | Rendering: 0.03331 (80%) | DB: 0.00172 (4%) | 200 OK [http://localhost/admin/projects]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 23:25:22) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.08937 (11 reqs/sec) | Rendering: 0.06239 (69%) | DB: 0.00529 (5%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing ProjectsController#edit (for 127.0.0.1 at 2009-08-25 23:25:27) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Save", "action"=>"edit", "id"=>"sample", "project"=>{"name"=>"Sample Project", "tracker_ids"=>["1", ""], "homepage"=>"", "is_public"=>"1", "description"=>"Its Sample Project"}, "controller"=>"projects"}
+Redirected to http://localhost:3000/projects/settings/sample
+Completed in 0.05728 (17 reqs/sec) | DB: 0.01379 (24%) | 302 Found [http://localhost/projects/edit/sample]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 23:25:27) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.06464 (15 reqs/sec) | Rendering: 0.04794 (74%) | DB: 0.00395 (6%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:25:34) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.07737 (12 reqs/sec) | Rendering: 0.03875 (50%) | DB: 0.00826 (10%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:25:39) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03228 (30 reqs/sec) | Rendering: 0.02126 (65%) | DB: 0.00423 (13%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:25:40) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.07280 (13 reqs/sec) | Rendering: 0.03777 (51%) | DB: 0.00402 (5%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:25:43) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Completed in 0.05599 (17 reqs/sec) | Rendering: 0.02765 (49%) | DB: 0.00534 (9%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:25:53) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.01384 (72 reqs/sec) | Rendering: 0.01058 (76%) | DB: 0.00066 (4%) | 200 OK [http://localhost/admin]
+
+
+Processing IssueStatusesController#index (for 127.0.0.1 at 2009-08-25 23:25:56) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"issue_statuses"}
+Rendering template within layouts/base
+Rendering issue_statuses/list
+Completed in 0.06457 (15 reqs/sec) | Rendering: 0.04981 (77%) | DB: 0.00188 (2%) | 200 OK [http://localhost/issue_statuses]
+
+
+Processing IssueStatusesController#new (for 127.0.0.1 at 2009-08-25 23:25:59) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"new", "controller"=>"issue_statuses"}
+Rendering template within layouts/base
+Rendering issue_statuses/new
+Completed in 0.04172 (23 reqs/sec) | Rendering: 0.03914 (93%) | DB: 0.00052 (1%) | 200 OK [http://localhost/issue_statuses/new]
+
+
+Processing IssueStatusesController#create (for 127.0.0.1 at 2009-08-25 23:26:08) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Create", "issue_status"=>{"name"=>"Open", "is_default"=>"1", "is_closed"=>"1"}, "action"=>"create", "controller"=>"issue_statuses"}
+Redirected to http://localhost:3000/issue_statuses/list
+Completed in 0.02022 (49 reqs/sec) | DB: 0.00767 (37%) | 302 Found [http://localhost/issue_statuses/create]
+
+
+Processing IssueStatusesController#list (for 127.0.0.1 at 2009-08-25 23:26:08) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"issue_statuses"}
+Rendering template within layouts/base
+Rendering issue_statuses/list
+Completed in 0.01714 (58 reqs/sec) | Rendering: 0.01307 (76%) | DB: 0.00122 (7%) | 200 OK [http://localhost/issue_statuses/list]
+
+
+Processing IssueStatusesController#new (for 127.0.0.1 at 2009-08-25 23:26:11) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"new", "controller"=>"issue_statuses"}
+Rendering template within layouts/base
+Rendering issue_statuses/new
+Completed in 0.02043 (48 reqs/sec) | Rendering: 0.01630 (79%) | DB: 0.00076 (3%) | 200 OK [http://localhost/issue_statuses/new]
+
+
+Processing IssueStatusesController#create (for 127.0.0.1 at 2009-08-25 23:26:27) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Create", "issue_status"=>{"name"=>"InProgress", "is_default"=>"1", "is_closed"=>"1"}, "action"=>"create", "controller"=>"issue_statuses"}
+Redirected to http://localhost:3000/issue_statuses/list
+Completed in 0.01812 (55 reqs/sec) | DB: 0.00646 (35%) | 302 Found [http://localhost/issue_statuses/create]
+
+
+Processing IssueStatusesController#list (for 127.0.0.1 at 2009-08-25 23:26:27) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"issue_statuses"}
+Rendering template within layouts/base
+Rendering issue_statuses/list
+Completed in 0.01962 (50 reqs/sec) | Rendering: 0.01472 (75%) | DB: 0.00131 (6%) | 200 OK [http://localhost/issue_statuses/list]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:26:41) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03241 (30 reqs/sec) | Rendering: 0.02295 (70%) | DB: 0.00210 (6%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:26:43) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.04942 (20 reqs/sec) | Rendering: 0.02455 (49%) | DB: 0.00454 (9%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:26:46) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 0.21903 (4 reqs/sec) | Rendering: 0.16854 (76%) | DB: 0.01142 (5%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:27:18) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Create", "project_id"=>"sample", "action"=>"new", "issue"=>{"start_date"=>"2009-08-25", "estimated_hours"=>"", "done_ratio"=>"0", "assigned_to_id"=>"", "subject"=>"Create the content in the redmine", "category_id"=>"", "tracker_id"=>"1", "due_date"=>"", "description"=>"Create the content in the redmine", "status_id"=>"2"}, "controller"=>"issues", "attachments"=>{"1"=>{"file"=>"", "description"=>""}}}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 0.09875 (10 reqs/sec) | Rendering: 0.03246 (32%) | DB: 0.00943 (9%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:27:32) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02803 (35 reqs/sec) | Rendering: 0.02169 (77%) | DB: 0.00169 (6%) | 200 OK [http://localhost/admin]
+
+
+Processing WorkflowsController#edit (for 127.0.0.1 at 2009-08-25 23:27:54) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "controller"=>"workflows"}
+Rendering template within layouts/base
+Rendering workflows/edit
+Completed in 0.13867 (7 reqs/sec) | Rendering: 0.02082 (15%) | DB: 0.00180 (1%) | 200 OK [http://localhost/workflows/edit]
+
+
+Processing AdminController#projects (for 127.0.0.1 at 2009-08-25 23:28:02) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"projects", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/projects
+Completed in 0.04154 (24 reqs/sec) | Rendering: 0.03412 (82%) | DB: 0.00157 (3%) | 200 OK [http://localhost/admin/projects]
+
+
+Processing CustomFieldsController#index (for 127.0.0.1 at 2009-08-25 23:28:08) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"custom_fields"}
+Rendering template within layouts/base
+Rendering custom_fields/list
+Completed in 0.03393 (29 reqs/sec) | Rendering: 0.02511 (74%) | DB: 0.00092 (2%) | 200 OK [http://localhost/custom_fields]
+
+
+Processing CustomFieldsController#index (for 127.0.0.1 at 2009-08-25 23:28:08) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"custom_fields"}
+Rendering template within layouts/base
+Rendering custom_fields/list
+Completed in 0.01274 (78 reqs/sec) | Rendering: 0.01013 (79%) | DB: 0.00057 (4%) | 200 OK [http://localhost/custom_fields]
+
+
+Processing SettingsController#index (for 127.0.0.1 at 2009-08-25 23:28:14) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"settings"}
+Rendering template within layouts/base
+Rendering settings/edit
+Completed in 0.07293 (13 reqs/sec) | Rendering: 0.06661 (91%) | DB: 0.00152 (2%) | 200 OK [http://localhost/settings]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 23:28:34) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03268 (30 reqs/sec) | Rendering: 0.02239 (68%) | DB: 0.00273 (8%) | 200 OK [http://localhost/]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:28:37) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02583 (38 reqs/sec) | Rendering: 0.01851 (71%) | DB: 0.00296 (11%) | 200 OK [http://localhost/admin]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-25 23:30:15) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.04322 (23 reqs/sec) | Rendering: 0.03207 (74%) | DB: 0.00537 (12%) | 200 OK [http://localhost/my/page]
+
+
+Processing MyController#page_layout (for 127.0.0.1 at 2009-08-25 23:30:19) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"page_layout", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page_layout
+Completed in 0.08713 (11 reqs/sec) | Rendering: 0.08061 (92%) | DB: 0.00196 (2%) | 200 OK [http://localhost/my/page_layout]
+
+
+Processing MyController#add_block (for 127.0.0.1 at 2009-08-25 23:30:23) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"add_block", "block"=>"", "controller"=>"my"}
+Completed in 0.00447 (223 reqs/sec) | Rendering: 0.00084 (18%) | DB: 0.00050 (11%) | 200 OK [http://localhost/my/add_block]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-25 23:30:27) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.04194 (23 reqs/sec) | Rendering: 0.03533 (84%) | DB: 0.00216 (5%) | 200 OK [http://localhost/my/page]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:30:33) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.01551 (64 reqs/sec) | Rendering: 0.01073 (69%) | DB: 0.00096 (6%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:30:36) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.07350 (13 reqs/sec) | Rendering: 0.03893 (52%) | DB: 0.00425 (5%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:31:38) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "set_filter"=>"1", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.09514 (10 reqs/sec) | Rendering: 0.04151 (43%) | DB: 0.00840 (8%) | 200 OK [http://localhost/projects/sample/issues?set_filter=1]
+
+
+Processing DocumentsController#index (for 127.0.0.1 at 2009-08-25 23:31:54) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"documents"}
+Rendering template within layouts/base
+Rendering documents/index
+Completed in 0.07576 (13 reqs/sec) | Rendering: 0.04876 (64%) | DB: 0.00337 (4%) | 200 OK [http://localhost/projects/sample/documents]
+
+
+Processing ProjectsController#settings (for 127.0.0.1 at 2009-08-25 23:32:27) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"settings", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 0.10700 (9 reqs/sec) | Rendering: 0.07965 (74%) | DB: 0.00517 (4%) | 200 OK [http://localhost/projects/settings/sample]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:32:30) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02713 (36 reqs/sec) | Rendering: 0.02059 (75%) | DB: 0.00139 (5%) | 200 OK [http://localhost/admin]
+
+
+Processing TrackersController#index (for 127.0.0.1 at 2009-08-25 23:32:36) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"trackers"}
+Rendering template within layouts/base
+Rendering trackers/list
+Completed in 0.03573 (27 reqs/sec) | Rendering: 0.02307 (64%) | DB: 0.00775 (21%) | 200 OK [http://localhost/trackers]
+
+
+Processing WorkflowsController#edit (for 127.0.0.1 at 2009-08-25 23:32:41) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "controller"=>"workflows"}
+Rendering template within layouts/base
+Rendering workflows/edit
+Completed in 0.03086 (32 reqs/sec) | Rendering: 0.01999 (64%) | DB: 0.00459 (14%) | 200 OK [http://localhost/workflows/edit]
+
+
+Processing EnumerationsController#index (for 127.0.0.1 at 2009-08-25 23:32:47) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"enumerations"}
+Rendering template within layouts/base
+Rendering enumerations/list
+Completed in 0.04673 (21 reqs/sec) | Rendering: 0.03496 (74%) | DB: 0.00168 (3%) | 200 OK [http://localhost/enumerations]
+
+
+Processing EnumerationsController#new (for 127.0.0.1 at 2009-08-25 23:32:51) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"new", "controller"=>"enumerations", "opt"=>"ACTI"}
+Rendering template within layouts/base
+Rendering enumerations/new
+Completed in 0.05651 (17 reqs/sec) | Rendering: 0.04958 (87%) | DB: 0.00071 (1%) | 200 OK [http://localhost/enumerations/new?opt=ACTI]
+
+
+Processing EnumerationsController#create (for 127.0.0.1 at 2009-08-25 23:33:10) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"enumeration"=>{"name"=>"Start Time", "is_default"=>"1", "opt"=>"ACTI"}, "commit"=>"Create", "action"=>"create", "controller"=>"enumerations"}
+Redirected to http://localhost:3000/enumerations/list?opt=ACTI
+Completed in 0.01948 (51 reqs/sec) | DB: 0.00811 (41%) | 302 Found [http://localhost/enumerations/create]
+
+
+Processing EnumerationsController#list (for 127.0.0.1 at 2009-08-25 23:33:10) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"enumerations", "opt"=>"ACTI"}
+Rendering template within layouts/base
+Rendering enumerations/list
+Completed in 0.01885 (53 reqs/sec) | Rendering: 0.01516 (80%) | DB: 0.00178 (9%) | 200 OK [http://localhost/enumerations/list?opt=ACTI]
+
+
+Processing EnumerationsController#new (for 127.0.0.1 at 2009-08-25 23:33:14) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"new", "controller"=>"enumerations", "opt"=>"DCAT"}
+Rendering template within layouts/base
+Rendering enumerations/new
+Completed in 0.02350 (42 reqs/sec) | Rendering: 0.01876 (79%) | DB: 0.00089 (3%) | 200 OK [http://localhost/enumerations/new?opt=DCAT]
+
+
+Processing EnumerationsController#create (for 127.0.0.1 at 2009-08-25 23:33:19) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"enumeration"=>{"name"=>"Cat -1", "is_default"=>"0", "opt"=>"DCAT"}, "commit"=>"Create", "action"=>"create", "controller"=>"enumerations"}
+Redirected to http://localhost:3000/enumerations/list?opt=DCAT
+Completed in 0.01803 (55 reqs/sec) | DB: 0.00705 (39%) | 302 Found [http://localhost/enumerations/create]
+
+
+Processing EnumerationsController#list (for 127.0.0.1 at 2009-08-25 23:33:19) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"enumerations", "opt"=>"DCAT"}
+Rendering template within layouts/base
+Rendering enumerations/list
+Completed in 0.02104 (47 reqs/sec) | Rendering: 0.01738 (82%) | DB: 0.00189 (8%) | 200 OK [http://localhost/enumerations/list?opt=DCAT]
+
+
+Processing EnumerationsController#new (for 127.0.0.1 at 2009-08-25 23:33:22) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"new", "controller"=>"enumerations", "opt"=>"IPRI"}
+Rendering template within layouts/base
+Rendering enumerations/new
+Completed in 0.02243 (44 reqs/sec) | Rendering: 0.01772 (79%) | DB: 0.00084 (3%) | 200 OK [http://localhost/enumerations/new?opt=IPRI]
+
+
+Processing EnumerationsController#create (for 127.0.0.1 at 2009-08-25 23:33:28) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"enumeration"=>{"name"=>"High", "is_default"=>"0", "opt"=>"IPRI"}, "commit"=>"Create", "action"=>"create", "controller"=>"enumerations"}
+Redirected to http://localhost:3000/enumerations/list?opt=IPRI
+Completed in 0.01702 (58 reqs/sec) | DB: 0.00759 (44%) | 302 Found [http://localhost/enumerations/create]
+
+
+Processing EnumerationsController#list (for 127.0.0.1 at 2009-08-25 23:33:28) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"enumerations", "opt"=>"IPRI"}
+Rendering template within layouts/base
+Rendering enumerations/list
+Completed in 0.03617 (27 reqs/sec) | Rendering: 0.02559 (70%) | DB: 0.00744 (20%) | 200 OK [http://localhost/enumerations/list?opt=IPRI]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:34:38) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03132 (31 reqs/sec) | Rendering: 0.02091 (66%) | DB: 0.00239 (7%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#add (for 127.0.0.1 at 2009-08-25 23:35:06) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"add", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/add
+Completed in 0.04022 (24 reqs/sec) | Rendering: 0.01817 (45%) | DB: 0.00649 (16%) | 200 OK [http://localhost/projects/add]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:35:16) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.21465 (4 reqs/sec) | Rendering: 0.02926 (13%) | DB: 0.00487 (2%) | 200 OK [http://localhost/issues]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:35:25) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03647 (27 reqs/sec) | Rendering: 0.02489 (68%) | DB: 0.00213 (5%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-25 23:35:29) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.07551 (13 reqs/sec) | Rendering: 0.03834 (50%) | DB: 0.00485 (6%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:35:39) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "set_filter"=>"1", "action"=>"index", "tracker_id"=>"1", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.12491 (8 reqs/sec) | Rendering: 0.06642 (53%) | DB: 0.01048 (8%) | 200 OK [http://localhost/projects/sample/issues?set_filter=1&tracker_id=1]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:35:48) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 0.08891 (11 reqs/sec) | Rendering: 0.04625 (52%) | DB: 0.01157 (13%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:35:57) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "issue"=>{"start_date"=>"2009-08-25", "estimated_hours"=>"", "priority_id"=>"3", "done_ratio"=>"0", "assigned_to_id"=>"", "subject"=>"Create the content in the redmine", "category_id"=>"", "tracker_id"=>"1", "due_date"=>"", "description"=>"", "status_id"=>"2"}, "controller"=>"issues", "attachments"=>{"1"=>{"file"=>"", "description"=>""}}, "continue"=>"Create and continue"}
+Redirected to http://localhost:3000/projects/sample/issues/new?tracker_id=1
+Completed in 0.09042 (11 reqs/sec) | DB: 0.01478 (16%) | 302 Found [http://localhost/projects/sample/issues/new]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:35:57) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "tracker_id"=>"1", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 0.06186 (16 reqs/sec) | Rendering: 0.03466 (56%) | DB: 0.00679 (10%) | 200 OK [http://localhost/projects/sample/issues/new?tracker_id=1]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:36:03) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.07788 (12 reqs/sec) | Rendering: 0.04189 (53%) | DB: 0.00683 (8%) | 200 OK [http://localhost/projects/sample/issues]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:36:10) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"set_filter"=>"1", "project_id"=>"sample", "action"=>"index", "fields"=>["status_id", "tracker_id"], "operators"=>{"start_date"=>"<t+", "estimated_hours"=>"=", "created_on"=>">t-", "priority_id"=>"=", "done_ratio"=>"=", "updated_on"=>">t-", "subject"=>"~", "assigned_to_id"=>"=", "category_id"=>"=", "tracker_id"=>"=", "due_date"=>"<t+", "author_id"=>"=", "status_id"=>"o"}, "values"=>{"start_date"=>[""], "estimated_hours"=>[""], "created_on"=>[""], "priority_id"=>["3"], "done_ratio"=>[""], "updated_on"=>[""], "subject"=>[""], "assigned_to_id"=>["me"], "category_id"=>["1"], "tracker_id"=>["1"], "due_date"=>[""], "author_id"=>["me"], "status_id"=>["1"]}, "controller"=>"issues", "add_filter_select"=>""}
+Rendering issues/index.rhtml
+Completed in 0.05551 (18 reqs/sec) | Rendering: 0.02137 (38%) | DB: 0.00354 (6%) | 200 OK [http://localhost/projects/sample/issues?set_filter=1]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:36:16) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 0.18151 (5 reqs/sec) | Rendering: 0.15648 (86%) | DB: 0.00841 (4%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-25 23:36:26) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Create", "project_id"=>"sample", "action"=>"new", "issue"=>{"start_date"=>"2009-08-25", "estimated_hours"=>"", "priority_id"=>"3", "done_ratio"=>"0", "assigned_to_id"=>"", "subject"=>"Create the content in the redmine", "category_id"=>"", "tracker_id"=>"1", "due_date"=>"", "description"=>"", "status_id"=>"2"}, "controller"=>"issues", "attachments"=>{"1"=>{"file"=>"", "description"=>""}}}
+Redirected to http://localhost:3000/issues/show/2
+Completed in 0.06757 (14 reqs/sec) | DB: 0.01435 (21%) | 302 Found [http://localhost/projects/sample/issues/new]
+
+
+Processing IssuesController#show (for 127.0.0.1 at 2009-08-25 23:36:26) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/show.rhtml
+Completed in 0.14205 (7 reqs/sec) | Rendering: 0.10319 (72%) | DB: 0.01223 (8%) | 200 OK [http://localhost/issues/show/2]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:36:34) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.12575 (7 reqs/sec) | Rendering: 0.07752 (61%) | DB: 0.01001 (7%) | 200 OK [http://localhost/projects/sample/issues]
+
+
+Processing NewsController#index (for 127.0.0.1 at 2009-08-25 23:37:01) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"news"}
+Rendering template within layouts/base
+Rendering news/index
+Completed in 0.11912 (8 reqs/sec) | Rendering: 0.10169 (85%) | DB: 0.00285 (2%) | 200 OK [http://localhost/projects/sample/news]
+
+
+Processing NewsController#new (for 127.0.0.1 at 2009-08-25 23:37:22) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"commit"=>"Create", "project_id"=>"sample", "action"=>"new", "controller"=>"news", "news"=>{"title"=>"News", "description"=>"Description", "summary"=>"Summary"}}
+Redirected to http://localhost:3000/projects/sample/news
+Completed in 0.03307 (30 reqs/sec) | DB: 0.00596 (18%) | 302 Found [http://localhost/projects/sample/news/new]
+
+
+Processing NewsController#index (for 127.0.0.1 at 2009-08-25 23:37:22) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"news"}
+Rendering template within layouts/base
+Rendering news/index
+Completed in 0.04698 (21 reqs/sec) | Rendering: 0.02785 (59%) | DB: 0.00419 (8%) | 200 OK [http://localhost/projects/sample/news]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-25 23:37:30) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.04824 (20 reqs/sec) | Rendering: 0.03809 (78%) | DB: 0.00619 (12%) | 200 OK [http://localhost/my/page]
+
+
+Processing IssuesController#show (for 127.0.0.1 at 2009-08-25 23:37:36) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/show.rhtml
+Completed in 0.11934 (8 reqs/sec) | Rendering: 0.07155 (59%) | DB: 0.01165 (9%) | 200 OK [http://localhost/issues/show/2]
+
+
+Processing DocumentsController#index (for 127.0.0.1 at 2009-08-25 23:37:40) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"documents"}
+Rendering template within layouts/base
+Rendering documents/index
+Completed in 0.03486 (28 reqs/sec) | Rendering: 0.02237 (64%) | DB: 0.00214 (6%) | 200 OK [http://localhost/projects/sample/documents]
+
+
+Processing AdminController#index (for 127.0.0.1 at 2009-08-25 23:37:49) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/base
+Rendering admin/index
+Completed in 0.02778 (35 reqs/sec) | Rendering: 0.02091 (75%) | DB: 0.00129 (4%) | 200 OK [http://localhost/admin]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-25 23:38:08) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/base
+Rendering users/list
+Completed in 0.04615 (21 reqs/sec) | Rendering: 0.03872 (83%) | DB: 0.00161 (3%) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-08-25 23:38:22) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"3", "controller"=>"users", "user"=>{"status"=>"3"}}
+Redirected to http://localhost:3000/users/list
+Completed in 0.02626 (38 reqs/sec) | DB: 0.00848 (32%) | 302 Found [http://localhost/users/edit/3?user%5Bstatus%5D=3]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2009-08-25 23:38:22) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"users"}
+Rendering template within layouts/base
+Rendering users/list
+Completed in 0.02899 (34 reqs/sec) | Rendering: 0.02320 (80%) | DB: 0.00230 (7%) | 200 OK [http://localhost/users/list]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-25 23:38:36) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/base
+Rendering users/list
+Completed in 0.04620 (21 reqs/sec) | Rendering: 0.03934 (85%) | DB: 0.00182 (3%) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-08-25 23:38:41) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"name"=>"", "action"=>"index", "controller"=>"users", "status"=>""}
+Rendering template within layouts/base
+Rendering users/list
+Completed in 0.05769 (17 reqs/sec) | Rendering: 0.04933 (85%) | DB: 0.00254 (4%) | 200 OK [http://localhost/users?status=&name=]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-08-25 23:38:44) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"edit", "id"=>"3", "controller"=>"users", "status"=>"", "user"=>{"status"=>"1"}}
+Redirected to http://localhost:3000/users/list?status=
+Completed in 0.02993 (33 reqs/sec) | DB: 0.01310 (43%) | 302 Found [http://localhost/users/edit/3?status=&user%5Bstatus%5D=1]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2009-08-25 23:38:44) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"list", "controller"=>"users", "status"=>""}
+Rendering template within layouts/base
+Rendering users/list
+Completed in 0.04142 (24 reqs/sec) | Rendering: 0.03279 (79%) | DB: 0.00309 (7%) | 200 OK [http://localhost/users/list?status=]
+
+
+Processing AccountController#logout (for 127.0.0.1 at 2009-08-25 23:38:50) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"logout", "controller"=>"account"}
+Cookie set: autologin=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 0.00781 (128 reqs/sec) | DB: 0.00171 (21%) | 302 Found [http://localhost/logout]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 23:38:50) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.07255 (13 reqs/sec) | Rendering: 0.05577 (76%) | DB: 0.00395 (5%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-25 23:38:53) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"login", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 0.01949 (51 reqs/sec) | Rendering: 0.01428 (73%) | DB: 0.00087 (4%) | 200 OK [http://localhost/login]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-25 23:39:00) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"back_url"=>"http%3A%2F%2Flocalhost%3A3000%2F", "action"=>"login", "username"=>"Developer1", "controller"=>"account", "password"=>"[FILTERED]", "login"=>"Login »"}
+Redirected to http://localhost:3000/
+Completed in 0.01014 (98 reqs/sec) | DB: 0.00519 (51%) | 302 Found [http://localhost/login]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 23:39:01) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.06225 (16 reqs/sec) | Rendering: 0.04531 (72%) | DB: 0.00958 (15%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:39:04) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03000 (33 reqs/sec) | Rendering: 0.01707 (56%) | DB: 0.00334 (11%) | 200 OK [http://localhost/projects]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:39:07) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.23029 (4 reqs/sec) | Rendering: 0.02789 (12%) | DB: 0.00610 (2%) | 200 OK [http://localhost/issues]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-25 23:39:11) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"set_filter"=>"1", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.08153 (12 reqs/sec) | Rendering: 0.03536 (43%) | DB: 0.00372 (4%) | 200 OK [http://localhost/issues?set_filter=1]
+
+
+Processing IssuesController#calendar (for 127.0.0.1 at 2009-08-25 23:39:13) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"calendar", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/calendar
+Completed in 0.22591 (4 reqs/sec) | Rendering: 0.12709 (56%) | DB: 0.00544 (2%) | 200 OK [http://localhost/issues/calendar]
+
+
+Processing MyController#page (for 127.0.0.1 at 2009-08-25 23:39:26) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"page", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 0.05614 (17 reqs/sec) | Rendering: 0.02894 (51%) | DB: 0.02334 (41%) | 200 OK [http://localhost/my/page]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 23:39:28) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03906 (25 reqs/sec) | Rendering: 0.02275 (58%) | DB: 0.00227 (5%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 23:40:23) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03866 (25 reqs/sec) | Rendering: 0.02237 (57%) | DB: 0.00216 (5%) | 200 OK [http://localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-25 23:40:29) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.03943 (25 reqs/sec) | Rendering: 0.02312 (58%) | DB: 0.00264 (6%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-25 23:40:31) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03005 (33 reqs/sec) | Rendering: 0.01783 (59%) | DB: 0.00199 (6%) | 200 OK [http://localhost/projects]
+
+
+Processing AccountController#logout (for 127.0.0.1 at 2009-08-26 00:14:09) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"logout", "controller"=>"account"}
+Cookie set: autologin=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 0.00734 (136 reqs/sec) | DB: 0.00185 (25%) | 302 Found [http://localhost/logout]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-26 00:14:09) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.02525 (39 reqs/sec) | Rendering: 0.01126 (44%) | DB: 0.00253 (10%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-26 00:14:12) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"login", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 0.00989 (101 reqs/sec) | Rendering: 0.00731 (73%) | DB: 0.00041 (4%) | 200 OK [http://localhost/login]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-26 00:14:18) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"back_url"=>"http%3A%2F%2Flocalhost%3A3000%2F", "action"=>"login", "username"=>"admin", "controller"=>"account", "password"=>"[FILTERED]", "login"=>"Login »"}
+Redirected to http://localhost:3000/
+Completed in 0.01564 (63 reqs/sec) | DB: 0.00553 (35%) | 302 Found [http://localhost/login]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-26 00:14:18) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.02344 (42 reqs/sec) | Rendering: 0.01485 (63%) | DB: 0.00327 (13%) | 200 OK [http://localhost/]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2009-08-26 00:14:18) [POST]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"back_url"=>"http%3A%2F%2Flocalhost%3A3000%2F", "action"=>"login", "username"=>"admin", "controller"=>"account", "password"=>"[FILTERED]", "login"=>"Login »"}
+Redirected to http://localhost:3000/
+Completed in 0.00996 (100 reqs/sec) | DB: 0.00373 (37%) | 302 Found [http://localhost/login]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2009-08-26 00:14:18) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 0.01990 (50 reqs/sec) | Rendering: 0.01267 (63%) | DB: 0.00245 (12%) | 200 OK [http://localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2009-08-26 00:15:23) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 0.03096 (32 reqs/sec) | Rendering: 0.02128 (68%) | DB: 0.00177 (5%) | 200 OK [http://localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2009-08-26 00:15:26) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"show", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 0.20281 (4 reqs/sec) | Rendering: 0.02573 (12%) | DB: 0.00619 (3%) | 200 OK [http://localhost/projects/show/sample]
+
+
+Processing TimelogController#report (for 127.0.0.1 at 2009-08-26 00:15:36) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"report", "controller"=>"timelog"}
+Rendering template within layouts/base
+Rendering timelog/report
+Completed in 0.14153 (7 reqs/sec) | Rendering: 0.06682 (47%) | DB: 0.00668 (4%) | 200 OK [http://localhost/projects/sample/timelog/report]
+
+
+Processing ProjectsController#activity (for 127.0.0.1 at 2009-08-26 00:16:57) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"activity", "id"=>"sample", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/activity
+Completed in 0.09239 (10 reqs/sec) | Rendering: 0.03050 (33%) | DB: 0.01070 (11%) | 200 OK [http://localhost/projects/activity/sample]
+
+
+Processing IssuesController#index (for 127.0.0.1 at 2009-08-26 00:17:07) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"index", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 0.09622 (10 reqs/sec) | Rendering: 0.03749 (38%) | DB: 0.01034 (10%) | 200 OK [http://localhost/projects/sample/issues]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2009-08-26 00:17:57) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"project_id"=>"sample", "action"=>"new", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 0.06431 (15 reqs/sec) | Rendering: 0.03030 (47%) | DB: 0.00734 (11%) | 200 OK [http://localhost/projects/sample/issues/new]
+
+
+Processing MyController#account (for 127.0.0.1 at 2009-08-26 00:18:00) [GET]
+  Session ID: 65eb2515ce09a81537466999212d0fbc
+  Parameters: {"action"=>"account", "controller"=>"my"}
+Rendering template within layouts/base
+Rendering my/account
+Completed in 0.04071 (24 reqs/sec) | Rendering: 0.03126 (76%) | DB: 0.00147 (3%) | 200 OK [http://localhost/my/account]

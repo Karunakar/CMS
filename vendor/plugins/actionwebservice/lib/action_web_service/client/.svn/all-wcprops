@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2099/branches/0.8-stable/vendor/plugins/actionwebservice/lib/action_web_service/client
+END
+soap_client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/2099/branches/0.8-stable/vendor/plugins/actionwebservice/lib/action_web_service/client/soap_client.rb
+END
+xmlrpc_client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2099/branches/0.8-stable/vendor/plugins/actionwebservice/lib/action_web_service/client/xmlrpc_client.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/2099/branches/0.8-stable/vendor/plugins/actionwebservice/lib/action_web_service/client/base.rb
+END

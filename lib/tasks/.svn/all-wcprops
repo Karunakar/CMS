@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2719/branches/0.8-stable/lib/tasks
+END
+deprecated.rake
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2099/branches/0.8-stable/lib/tasks/deprecated.rake
+END
+plugins.rake
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2099/branches/0.8-stable/lib/tasks/plugins.rake
+END
+extract_fixtures.rake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2099/branches/0.8-stable/lib/tasks/extract_fixtures.rake
+END
+migrate_from_trac.rake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2719/branches/0.8-stable/lib/tasks/migrate_from_trac.rake
+END
+reminder.rake
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2099/branches/0.8-stable/lib/tasks/reminder.rake
+END
+migrate_from_mantis.rake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2709/branches/0.8-stable/lib/tasks/migrate_from_mantis.rake
+END
+email.rake
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2230/branches/0.8-stable/lib/tasks/email.rake
+END
+migrate_plugins.rake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2099/branches/0.8-stable/lib/tasks/migrate_plugins.rake
+END
+load_default_data.rake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2593/branches/0.8-stable/lib/tasks/load_default_data.rake
+END
+fetch_changesets.rake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2099/branches/0.8-stable/lib/tasks/fetch_changesets.rake
+END
+testing.rake
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2099/branches/0.8-stable/lib/tasks/testing.rake
+END
