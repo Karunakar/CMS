@@ -1,0 +1,44 @@
+<h1>Editing meeting</h1>
+
+<% form_for(@meeting) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :meeting_date %><br />
+    <%= f.datetime_select :meeting_date %>
+  </p>
+  <p>
+    <%= f.label :venue %><br />
+    <%= f.text_field :venue %>
+  </p>
+  <p>
+    <%= f.label :start_time %><br />
+    <%= f.datetime_select :start_time %>
+  </p>
+  <p>
+    <%= f.label :finish_time %><br />
+    <%= f.datetime_select :finish_time %>
+  </p>
+  <p>
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </p>
+  <p>
+    <%= f.label :project_id %><br />
+    <%= f.text_field :project_id %>
+  </p>
+  <p>
+    <%= f.label :participants %><br />
+    <%= f.text_field :participants %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @meeting %> |
+<%= link_to 'Back', meetings_path %>

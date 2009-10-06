@@ -1,0 +1,36 @@
+
+
+<h1>Listing meetings</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Meeting date</th>
+    <th>Venue</th>
+    <th>Start time</th>
+    <th>Finish time</th>
+    <th>Type</th>
+    <th>Project</th>
+    <th>Participants</th>
+  </tr>
+
+<% for meeting in @meetings %>
+  <tr>
+    <td><%=h meeting.title %></td>
+    <td><%=h meeting.meeting_date %></td>
+    <td><%=h meeting.venue %></td>
+    <td><%=h meeting.start_time %></td>
+    <td><%=h meeting.finish_time %></td>
+    <td><%=h meeting.type %></td>
+    <td><%=h meeting.project_id %></td>
+    <td><%=h meeting.participants %></td>
+    <td><%= link_to 'Show', meeting %></td>
+    <td><%= link_to 'Edit', edit_meeting_path(meeting) %></td>
+    <td><%= link_to 'Destroy', meeting, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New meeting', new_meeting_path %>

@@ -1,0 +1,43 @@
+<%= error_messages_for 'meeting' %>
+
+<% labelled_tabular_form_for :meeting, @meeting, :url => { :action => "create" } do |f| %>
+
+
+
+<!--[form:user]-->
+<div class="box">
+	<p><%= f.text_field :title, :required => true, :size => 25  %></p>
+	<p>
+    		<%#= f.label :start_time %><br />
+    		<%= f.datetime_select :start_time %>
+  	</p>
+	<p>
+    		<%= f.text_field :venue %>
+  	</p>
+	<p>
+    		<%= f.datetime_select :start_time %>
+  	</p>
+ 	<p>
+    	    	<%= f.datetime_select :finish_time %>
+  	</p>
+	<p>
+    		<%= f.datetime_select :finish_time %>
+  	</p>
+	<p>
+    		<%= f.text_field :type %>
+  	</p>
+  	<p>
+    		<%= f.text_field :project_id %>
+  	</p>
+  	<p>
+    		<%= f.text_field :participants %>
+  	</p>
+	<p>
+    		<%= f.submit "Create" %>
+  	</p>
+
+<%= call_hook(:view_meetings_form, :meeting => @meeting, :form => f) %>
+</div>
+<% end %>
+
+

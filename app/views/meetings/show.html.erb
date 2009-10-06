@@ -1,0 +1,43 @@
+<p>
+  <b>Title:</b>
+  <%=h @meeting.title %>
+</p>
+
+<p>
+  <b>Meeting date:</b>
+  <%=h @meeting.meeting_date %>
+</p>
+
+<p>
+  <b>Venue:</b>
+  <%=h @meeting.venue %>
+</p>
+
+<p>
+  <b>Start time:</b>
+  <%=h @meeting.start_time %>
+</p>
+
+<p>
+  <b>Finish time:</b>
+  <%=h @meeting.finish_time %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @meeting.type %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%=h @meeting.project_id %>
+</p>
+
+<p>
+  <b>Participants:</b>
+  <%=h @meeting.participants %>
+</p>
+
+
+<%= link_to 'Edit', edit_meeting_path(@meeting) %> |
+<%= link_to 'Back', meetings_path %>
