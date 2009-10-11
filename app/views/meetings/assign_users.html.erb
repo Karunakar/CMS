@@ -1,0 +1,30 @@
+<h3>Please select User for this Meeting</h3>
+  <div id="subject_course_tabs">
+    <% form_for :meeting, :url => update_users_meeting_path, :html => { :method => 'put', :id =>"update_courses_student"} do |f| %>
+	<div >
+        
+              <ul>
+               
+                <% unless User.all.blank? %>
+                  <% User.all.each do |user| %>             
+                    <li>
+                      <%= check_box_tag "meeting[user_ids][]", user.id, @meeting.users.include?(user), :id => "meeting_user_#{user.name.split}_#{user.id}" %>
+                      <%= label_tag "meeting_user_#{user.name.split}_#{user.id}", user.name %>
+                    </li>
+                  <% end %>
+                <% else %>
+                  <%= "There are no users available for #{@meeting.title}" %>
+                <% end %>
+              </ul>
+          
+      </div>
+	<div class="button">
+  			<%= hidden_field_tag :meeting_id, @meeting.id %>	
+        <%= f.submit "Update", :class => "iButton" %>
+      </div>
+      
+  <% end %>
+
+  
+  </div>
+

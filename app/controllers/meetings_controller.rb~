@@ -64,6 +64,24 @@ class MeetingsController < ApplicationController
     @meeting = Meeting.find(params[:id])
   end
 
+  def assign_users
+	@meeting = Meeting.find(params[:id])
+  end
+
+	def update_users
+		logger.info(params)
+		@meeting = Meeting.find(params[:meeting_id])
+    		# @courses = (@subjects.collect {|s| s.courses}).flatten 
+    		@meeting.meeting_users.each(&:destroy) if params[:meeting].blank?
+    		
+      			if @meeting.update_attributes(params[:meeting])
+			  msg = "Courses have been updated"
+      			end
+			flash[:notice] = 'Meeting was successfully created.'
+        		redirect_to(assign_users_meeting_url@meeting) 
+
+  	end
+
   # POST /meetings
   # POST /meetings.xml
   def create

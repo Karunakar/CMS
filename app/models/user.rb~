@@ -226,24 +226,7 @@ class User < ActiveRecord::Base
     end
   end
 
-  attr_accessor :group_ids
-  after_save :update_groups
-
-  #after_save callback to handle group_ids
-  def update_groups
-    unless group_ids.nil?
-      self.memberships.each do |m|
-        m.destroy unless group_ids.include?(m.group_id.to_s)
-        group_ids.delete(m.group_id.to_s)
-      end 
-      group_ids.each do |g|
-        self.memberships.create(:group_id => g) unless g.blank?
-      end
-      reload
-      self.group_ids = nil
-    end
-  end
-
+  
   
   # Return true if the user is a member of project
   def member_of?(project)

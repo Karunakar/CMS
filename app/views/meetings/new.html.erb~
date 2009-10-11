@@ -8,30 +8,30 @@
 <div class="box">
 	<p><%= f.text_field :title, :required => true, :size => 25  %></p>
 	<p>
-    		<%#= f.label :start_time %><br />
-    		<%= f.datetime_select :start_time %>
+    		<p><label for="meeting_date">Start time</label>
+    		<%= f.datetime_select :meeting_date %>
   	</p>
-	<p>
+
+	<p>	<p><label for="venue">Venue</label>
     		<%= f.text_field :venue %>
   	</p>
-	<p>
+	<p>	<p><label for="start_time">End time</label>
     		<%= f.datetime_select :start_time %>
   	</p>
  	<p>
+		<p><label for="start_time">Finish time</label>
     	    	<%= f.datetime_select :finish_time %>
   	</p>
-	<p>
+	<p>	<p><label for="start_time">End time</label>
     		<%= f.datetime_select :finish_time %>
   	</p>
-	<p>
+	<p>	<p><label for="type">Type</label>
     		<%= f.text_field :type %>
   	</p>
   	<p>
     		<%= f.text_field :project_id %>
   	</p>
-  	<p>
-    		<%= f.text_field :participants %>
-  	</p>
+  	
 	<p>
     		<%= f.submit "Create" %>
   	</p>
@@ -39,5 +39,8 @@
 <%= call_hook(:view_meetings_form, :meeting => @meeting, :form => f) %>
 </div>
 <% end %>
+
+
+<%= link_to 'Back', meetings_path %>
 
 
