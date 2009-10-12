@@ -4,12 +4,10 @@
 	<%= textilizable @project.description %>	
 	<ul>
 	<% unless @project.homepage.blank? %><li><%=l(:field_homepage)%>: <%= link_to(h(@project.homepage), @project.homepage) %></li><% end %>
-    <% if @subprojects.any? %>
- 	<li><%=l(:label_subproject_plural)%>: <%= @subprojects.collect{|p| link_to(h(p.name), :action => 'show', :id => p)}.join(", ") %></li>
-    <% end %>
-	<% if @project.parent %>
-	<li><%=l(:field_parent)%>: <%= link_to h(@project.parent.name), :controller => 'projects', :action => 'show', :id => @project.parent %></li>
-	<% end %>
+  <% if @subprojects.any? %>
+ 	<li><%=l(:label_subproject_plural)%>:
+	    <%= @subprojects.collect{|p| link_to(h(p), :action => 'show', :id => p)}.join(", ") %></li>
+  <% end %>
 	<% @project.custom_values.each do |custom_value| %>
 	<% if !custom_value.value.empty? %>
 	   <li><%= custom_value.custom_field.name%>: <%=h show_value(custom_value) %></li>
@@ -25,8 +23,9 @@
       <li><%= link_to tracker.name, :controller => 'issues', :action => 'index', :project_id => @project, 
                                                 :set_filter => 1, 
                                                 "tracker_id" => tracker.id %>:
-      <%= @open_issues_by_tracker[tracker] || 0 %> <%= lwr(:label_open_issues, @open_issues_by_tracker[tracker] || 0) %>
-      <%= l(:label_on) %> <%= @total_issues_by_tracker[tracker] || 0 %></li>
+					<%= l(:label_x_open_issues_abbr_on_total, :count => @open_issues_by_tracker[tracker].to_i,
+																										:total => @total_issues_by_tracker[tracker].to_i) %>
+			</li>
     <% end %>
     </ul>
     <p><%= link_to l(:label_issue_view_all), :controller => 'issues', :action => 'index', :project_id => @project, :set_filter => 1 %></p>
@@ -36,13 +35,11 @@
 </div>
 
 <div class="splitcontentright">
-    <% if @members_by_role.any? %>
+  <% if @users_by_role.any? %>
 	<div class="box">
 		<h3 class="icon22 icon22-users"><%=l(:label_member_plural)%></h3>	
-		<p><% @members_by_role.keys.sort.each do |role| %>
-		<%= role.name %>:
-		<%= @members_by_role[role].collect(&:user).sort.collect{|u| link_to_user u}.join(", ") %>
-		<br />
+		<p><% @users_by_role.keys.sort.each do |role| %>
+		<%=h role %>: <%= @users_by_role[role].sort.collect{|u| link_to_user u}.join(", ") %><br />
 		<% end %></p>
 	</div>
 	<% end %>
@@ -69,7 +66,7 @@
     
     <% if @total_hours && User.current.allowed_to?(:view_time_entries, @project) %>
     <h3><%= l(:label_spent_time) %></h3>
-    <p><span class="icon icon-time"><%= lwr(:label_f_hour, @total_hours) %></span></p>
+    <p><span class="icon icon-time"><%= l_hours(@total_hours) %></span></p>
     <p><%= link_to(l(:label_details), {:controller => 'timelog', :action => 'details', :project_id => @project}) %> |
     <%= link_to(l(:label_report), {:controller => 'timelog', :action => 'report', :project_id => @project}) %></p>
     <% end %>

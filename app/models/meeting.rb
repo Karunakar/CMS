@@ -3,13 +3,7 @@ class Meeting < ActiveRecord::Base
   	has_many :users, :through => :meeting_users
 	attr_accessor :user_ids
   	after_save :update_users
-
-	def test1
-logger.info self.meeting_users.size
-logger.info Meeting.last.meeting_users.size
-logger.info('pp')
-	end
-
+	validates_presence_of :title,:venue
  	#after_save callback to handle group_ids
 	def update_users
 		 unless user_ids.blank?

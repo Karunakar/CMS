@@ -8,28 +8,28 @@
 <div class="box">
 	<p><%= f.text_field :title, :required => true, :size => 25  %></p>
 	<p>
-    		<p><label for="meeting_date">Start time</label>
+    		<label for="meeting_date">Meeting Date</label>
     		<%= f.datetime_select :meeting_date %>
   	</p>
 
-	<p>	<p><label for="venue">Venue</label>
-    		<%= f.text_field :venue %>
+	<p>	<label for="venue">Venue</label>
+    		<%= f.text_field :venue, :required => true %>
   	</p>
-	<p>	<p><label for="start_time">End time</label>
+	<p>	<label for="start_time">Start time</label>
     		<%= f.datetime_select :start_time %>
   	</p>
  	<p>
-		<p><label for="start_time">Finish time</label>
+		<label for="start_time">Finish time</label>
     	    	<%= f.datetime_select :finish_time %>
   	</p>
-	<p>	<p><label for="start_time">End time</label>
-    		<%= f.datetime_select :finish_time %>
-  	</p>
-	<p>	<p><label for="type">Type</label>
+	
+	<p>	<label for="type">Type</label>
     		<%= f.text_field :type %>
   	</p>
   	<p>
-    		<%= f.text_field :project_id %>
+    		<label for="project_id">Project</label>
+		
+    <%= f.select("project_id", Project.find(:all, :order => :name).collect {|c| [ c.name, c.id ] }, {:prompt => 'Select project...' }, :class => '{validate:{required:true}}') %>
   	</p>
   	
 	<p>

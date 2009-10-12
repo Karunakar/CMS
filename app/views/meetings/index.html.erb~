@@ -1,6 +1,3 @@
-
-
-
 <h1>Listing meetings</h1>
 
 <table class="list">
@@ -12,7 +9,6 @@
     <th>Finish time</th>
     <th>Type</th>
     <th>Project</th>
-    <th>Participants</th>
   </tr>
 
 <% for meeting in @meetings %>
@@ -24,8 +20,7 @@
     <td><%=h meeting.finish_time %></td>
     <td><%=h meeting.type %></td>
     <td><%=h meeting.project_id %></td>
-    <td><%=h meeting.participants %></td>
-	<td><%= link_to 'Assign Users',  assign_users_meeting_path(meeting) %></td>
+    <td><%= link_to 'Assign Users',  assign_users_meeting_path(meeting) %></td>
     <td><%= link_to 'Show', meeting %></td>
     <td><%= link_to 'Edit', edit_meeting_path(meeting) %></td>
     <td><%= link_to 'Destroy', meeting, :confirm => 'Are you sure?', :method => :delete %></td>

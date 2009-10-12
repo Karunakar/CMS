@@ -27,14 +27,11 @@
     <%= f.label :type %><br />
     <%= f.text_field :type %>
   </p>
-  <p>
-    <%= f.label :project_id %><br />
-    <%= f.text_field :project_id %>
-  </p>
-  <p>
-    <%= f.label :participants %><br />
-    <%= f.text_field :participants %>
-  </p>
+	
+	<p>
+	<%= f.label :project %><br />
+	<%= f.select("project_id", Project.find(:all, :order => :name).collect {|c| [ c.name, c.id ] }, {:prompt => 'Select project...' }, :class => '{validate:{required:true}}') %>
+
   <p>
     <%= f.submit "Update" %>
   </p>

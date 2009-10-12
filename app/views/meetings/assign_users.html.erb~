@@ -1,10 +1,8 @@
 <h3>Please select User for this Meeting</h3>
   <div id="subject_course_tabs">
     <% form_for :meeting, :url => update_users_meeting_path, :html => { :method => 'put', :id =>"update_courses_student"} do |f| %>
-	<div >
-        
-              <ul>
-               
+	<div>        
+              <ul>               
                 <% unless User.all.blank? %>
                   <% User.all.each do |user| %>             
                     <li>
@@ -15,16 +13,13 @@
                 <% else %>
                   <%= "There are no users available for #{@meeting.title}" %>
                 <% end %>
-              </ul>
-          
-      </div>
+              </ul>          
+      	</div>
 	<div class="button">
-  			<%= hidden_field_tag :meeting_id, @meeting.id %>	
-        <%= f.submit "Update", :class => "iButton" %>
-      </div>
-      
+  		<%= hidden_field_tag :meeting_id, @meeting.id %>	
+        	<%= f.submit "Update", :class => "iButton" %>
+      	</div>      
   <% end %>
-
-  
+	<%= link_to 'Back', meetings_path %>  
   </div>
 
